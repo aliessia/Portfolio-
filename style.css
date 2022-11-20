@@ -86,17 +86,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 600px) {
-  .container {
-    grid-template-columns: none;
-    grid-row: auto;
-}
-.primary-link {
-  display: block;
+@media (max-width: 576px) {
+.container {
   text-align: center;
-  margin: 0 20px;
 }
-img{
-  display: none;
+.project-names {
+  margin-top: 10px;
 }
 }
