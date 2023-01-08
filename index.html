@@ -5,113 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front-end developer - Alessia Sol</title>
-    <link rel="stylesheet" href="style.css" />
     <meta name="description" content="Ales Sol is a Front-end developer and a Content Creator, check out her projects and contact her for inquiries">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-    crossorigin="anonymous"
-  />
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"
-  ></script>
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/portfolio.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html" title="Front-end developer">Alessia Sol</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html" title="Homepage"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html" title="About Alessia">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html#contact" title="Contact Aliesia">Contact me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <ul>
+          <li class="active">
+            <a href="index.html" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="about.html" title="About Aliesia"> About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Aliesia's work"> Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Aliesia"> Contact</a>
+          </li>
+        </ul>
       </nav>
-    <br/>
-    <br/>
-    <br/>
-    <div class="container">
-    <h1>Alessia Soloviova</h1>
-    <h2>🇺🇦 Front-end developer, based in Italy</h2>
-    <div class="navigation-links mb-5">
-      <a href="about.html#contact" class="primary-link" title="Contact Alessia">Contact me</a>
-      <a href="about.html" class="secondary-link" title="About Alessia">About me</a>
     </div>
+    <div class="hero">
+      <p>👋 Hello, I'm</p>
+      <h1>Aliesia Soloviova</h1>
+      <h2 class="mb-5">Front-end developer</h2>
+      <div>
+        <a href="contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
+      </div>
+    </div>
+    <p class="text-center m-5">
+      Check out some of my featured projects below
+
+    </p>
     <div class="container">
-      <div class="row mt-5">
-        <div class="col-sm-6">
-          <img src="images/yoga.png" alt="yoga project" class="img-fluid rounded" />
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/ukraine.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
-        <div class="col-sm-6">
-          <h2 class="mb-3 project-names">Yoga app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link">Launch Yoga App</a>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Help Ukraine Landing Page </h2>
+            <p class="mb-5 text-muted">
+              I entered the world of front-end development by gaining some knowledge in HTML, CSS, and JavaScript. I used my knowledge of these languages, along with my new skills in VS Code, to build a landing page about Ukraine. The page utilizes JavaScript functions to create user interaction. 
+            </p>
+            <a href="work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
           </div>
         </div>
       </div>
-    <div class="row mt-5">
-      <div class="col-sm-6">
-          <img src="images/weather.png"  alt="weather project" class="img-fluid rounded" />
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an advanced 8-week JavaScript coding workshop. Building upon my previously-gained knowledge, I also became skilled in Bootstrap, API’s, real-life development workflow, hosting, and advanced JavaScript. I combined all of these skills to create a fully-functioning weather app. 
+            </p>
+            <a href="work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
         </div>
-        <div class="col-sm-6">
-        <h2 class="mb-3 project-names">Weather app</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary app preview"
+          />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Dictionary App</h2>
+            <p class="mb-5 text-muted">
+              I immersed myself in React development in SheCodes React. I used my knowledge of this highly-demanded framework to build a working dictionary app incorporating coding best practices, along with the most popular tools and technologies.
+            </p>
+            <a href="work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Aliesia"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:aliesia.soloviova@gmail.com"
+            class="email-link"
+            title="Email Aliesia"
+          >
+            aliesia.soloviova@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/aliessia"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aliesia-soloviova-a5b2aa164/"
+            target="_blank"
+            title="linkedin Profile"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Aliesia Soloviova, and is
+          <a
+            href=""
+            target="_blank">
+            open-sourced
+          </a>
         </p>
-        <div class="mt-5">
-          <a href="#" class="primary-link">Launch Weather App</a>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-sm-6">
-        <img src="images/yogurt.png" alt="project about yougurt" class="img-fluid rounded" />
-      </div>
-      <div class="col-sm-6">
-        <h2 class="mb-3 project-names">Yougurt app</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-          eos eveniet alias temporibus deserunt veritatis minima fugiat
-          explicabo eum dolore.
         </p>
-        <div class="mt-5">
-          <a href="#" class="primary-link">Launch Weather App</a>
-        </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
